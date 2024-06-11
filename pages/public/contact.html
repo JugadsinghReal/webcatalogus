@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webcatalogus</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="grid">
+          <p class="main_titel">Webshop</p> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">Over_Ons</a>
+            <a href="contact.html">Contact</a>
+            <a href="onderwerpen.html">Onderwerpen</a>
+        </nav>
+    </div>
+    </header>
+    <img class="title" src="images/VAPORWAVE.gif" alt="" />
+    <h1 class="titleinfo">Contact</h1>
+
+    <div class="contactContainer">
+        <div class="extraInfo">
+            <div class="p1"><label for="username">name</label></div>
+            <div class="p1"><label for="emailaddres">email</label></div>
+            <div class="p1"><label for="area">text</label></div>
+        </div>
+        <div class="nameEmailText">
+    <input type="text" name="name" id="username" oninput="user()" placeholder="name"></input>
+    <input type="email" name="email" id="emailaddres" oninput="email()" placeholder="email"></input>
+    <textarea name="text" id="area" oninput="textArea()" placeholder="text"></textarea>
+
+    <br>
+
+    <button class="send">send</button>
+    <p>Bedrijfs-email: Webcatalogus123@gmail.nl</p>
+    <p>Nummer: 06-27502314231</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
